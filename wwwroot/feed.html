@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FG Corporation — Feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="assets/logo.jpg" alt="FG Corporation">
+            <span>FG_CORPORATION</span>
+        </div>
+
+        <div class="navbar-tabs" id="type-tabs">
+            <button class="navbar-tab active" data-type="Image">Fotos</button>
+            <button class="navbar-tab" data-type="Video">Videos</button>
+            <button class="navbar-tab" data-type="Mod">Mods</button>
+            <button class="navbar-tab" data-type="Map">Mapas</button>
+            <button class="navbar-tab" data-type="Guide">Guias</button>
+        </div>
+
+        <div class="navbar-user">
+            <span class="navbar-username" id="navbar-username"></span>
+            <div class="avatar-badge" id="navbar-avatar">?</div>
+            <button class="btn-logout" id="logout-btn">Salir</button>
+        </div>
+    </nav>
+
+    <main class="feed-main">
+        <div id="feed-container">
+            <!-- El contenido se llena desde feed.js -->
+        </div>
+    </main>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="js/api.js"></script>
+    <script src="js/feed.js"></script>
+</body>
+</html>

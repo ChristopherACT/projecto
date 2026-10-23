@@ -1,0 +1,6 @@
+@FG_Corporation_HostAddress = http://localhost:5004
+
+GET {{FG_Corporation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

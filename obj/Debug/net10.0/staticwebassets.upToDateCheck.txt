@@ -1,0 +1,13 @@
+wwwroot\assets\logo.jpg
+wwwroot\feed.html
+wwwroot\index.html
+wwwroot\js\api.js
+wwwroot\js\auth.js
+wwwroot\css\styles.css
+wwwroot\js\feed.js
+C:\Users\wacho\source\repos\FG_Corporation\FG_Corporation\wwwroot\feed.html
+C:\Users\wacho\source\repos\FG_Corporation\FG_Corporation\wwwroot\index.html
+C:\Users\wacho\source\repos\FG_Corporation\FG_Corporation\wwwroot\js\api.js
+C:\Users\wacho\source\repos\FG_Corporation\FG_Corporation\wwwroot\js\auth.js
+C:\Users\wacho\source\repos\FG_Corporation\FG_Corporation\wwwroot\css\styles.css
+C:\Users\wacho\source\repos\FG_Corporation\FG_Corporation\wwwroot\js\feed.js
